@@ -1,6 +1,6 @@
 import React from 'react';
 import { Clipboard } from 'react-native'
-import { Container, Header, Item, Input, Title, Content, Left, Root, Toast, Footer, FooterTab, Button, Right, Body, Text } from 'native-base';
+import { Container, Header, Item, Input, Title, Content, Left, Root, Toast, Footer, FooterTab, Button, Right, Body, Text } from 'native-base'
 import { LinearGradient } from 'expo'
 
 const darkGreen = '#3c9caa'
@@ -98,6 +98,6 @@ export default class App extends React.Component {
           </Footer>
         </Container>
       </Root>
-    );
+    )
   }
 }
